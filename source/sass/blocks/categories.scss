@@ -149,3 +149,47 @@
     font-size: 20px;
   }
 }
+
+@media (min-width: $desktop-width) {
+
+  .categories__body {
+    margin-top: 80px;
+  }
+
+  .categories__list {
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+  }
+
+  .categories__item {
+    width: 570px;
+  }
+
+  .categories__content {
+    &--pro {
+      background-image: url("../img/cat-pro.png");
+      background-size: 137px 101px;
+      background-position: 46px 34px;
+      background-repeat: no-repeat;
+    }
+
+    &--slim {
+      background-image: url("../img/cat-slim.png");
+      background-size: 100px 101px;
+      background-position: 46px 34px;
+      background-repeat: no-repeat;
+    }
+
+    padding-top: 45px;
+    padding-left: 54px;
+    min-height: inherit;
+  }
+
+  .categories__title {
+    margin-bottom: 78px;
+    padding: 0;
+
+    text-align: center;
+  }
+}

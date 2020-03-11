@@ -11,3 +11,27 @@
 .navigation__item {
   height: 67px;
 }
+
+@media (min-width: $tablet-width) {
+  .navigation__list {
+    justify-content: space-between;
+
+    width: 438px;
+
+    flex-direction: row;
+  }
+
+  .navigation__link {
+    color: rgb(0, 0, 0);
+  }
+}
+
+@media (min-width: $desktop-width) {
+    .navigation__list {
+      flex-direction: row;
+    }
+
+    .navigation__link {
+    color: rgb(255, 255, 255);
+  }
+}

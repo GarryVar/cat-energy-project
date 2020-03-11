@@ -120,6 +120,10 @@ button {
   clip: rect(0, 0, 0, 0);
 }
 
+.page-index {
+  position: relative;
+}
+
 .container {
   margin: auto;
 
@@ -133,5 +137,16 @@ button {
     margin: auto;
 
     width: 708px;
+  }
+}
+
+
+@media(min-width: $desktop-width) {
+  .container {
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    width: 1300px;
   }
 }

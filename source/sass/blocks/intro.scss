@@ -20,7 +20,7 @@
 .intro__text {
   &--small {
     position: relative;
-    margin-bottom: 29px;
+    margin-bottom: 23px;
 
     min-height: 16px;
 
@@ -47,6 +47,7 @@
 
 .intro__programm {
   position: relative;
+  padding: 0;
 
   display: block;
 
@@ -111,6 +112,34 @@
     position: absolute;
 
     top: 222px;
+
+    width: 565px;
+    height: 627px;
+
+    z-index: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .intro {
+    &--bg {
+      background-image: linear-gradient(to right, rgb(255, 255, 255) 50%, $main-green 50%);
+    }
+  }
+
+  .intro__body {
+    position: relative;
+
+    min-height: 696px;
+
+    padding-top: 225px;
+  }
+
+  .intro__picture {
+    position: absolute;
+
+    top: 140px;
+    right: 204px;
 
     width: 565px;
     height: 627px;
