@@ -1,0 +1,151 @@
+.categories__list {
+  min-height: 552px;
+}
+
+.categories__item {
+  margin-bottom: 20px;
+
+  height: 264px;
+}
+
+.categories__content {
+ &--pro {
+    background-image: url("../img/cat-pro.png");
+    background-size: 47px 37px;
+    background-position: 15px 26px;
+    background-repeat: no-repeat;
+  }
+
+  &--slim {
+    background-image: url("../img/cat-slim.png");
+    background-size: 43px 43px;
+    background-position: 15px 26px;
+    background-repeat: no-repeat;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: inherit;
+
+  background:$main-gray;
+}
+
+.categories__title {
+  margin-bottom: 40px;
+  padding-top: 6px;
+
+  width: 100%;
+  min-height: 40px;
+
+  color: rgb(0, 0, 0);
+  line-height: 37px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.categories__text {
+  margin-bottom: 20px;
+
+  width: 100%;
+  min-height: 107px;
+
+  color: #444444;
+  font-family: "Arial";
+  font-size: 14px;
+
+  text-transform: none;
+  line-height: 18px;
+
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.categories__link {
+  position: relative;
+
+  align-self: flex-start;
+
+  width: 120px;
+  min-height: 12px;
+
+  color: rgb(0, 0, 0);
+
+  &::after {
+    content: "";
+
+    position: absolute;
+
+    top: 50%;
+    right: 0;
+
+    width: 24px;
+    height: 11px;
+
+    background-image: url("../img/right-arrow-long.png");
+
+
+    transform: translateY(-50%);
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .categories__body {
+    min-height: 773px;
+  }
+
+  .categories__item {
+    margin-bottom: 30px;
+
+    min-height: 372px;
+  }
+
+  .categories__content {
+    &--pro {
+      background-image: url("../img/cat-pro.png");
+      background-size: 268px 200px;
+      background-position: 94% center;
+      background-repeat: no-repeat;
+    }
+
+    &--slim {
+      background-image: url("../img/cat-slim.png");
+      background-size: 200px 212px;
+      background-position: 94% center;
+      background-repeat: no-repeat;
+    }
+
+    padding-top: 85px;
+    padding-left: 54px;
+    min-height: inherit;
+  }
+
+  .categories__title {
+    margin-bottom: 30px;
+
+    min-height: 30px;
+
+    font-size: 36px;
+    text-align: left;
+  }
+
+  .categories__text {
+    margin-right: auto;
+    max-width: 372px;
+    min-height: 130px;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    border: 0;
+  }
+
+  .categories__login {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Oswald";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Oswald.woff2") format("woff2"),
+    url("../fonts/Oswald.woff") format("woff");
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+*:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px #288ddb;
+}
+
+body {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+
+  min-width: 320px;
+  min-height: 760px;
+
+  color: rgb(255, 255, 255);
+  line-height: 24px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  // font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+
+  // background-color: rgb(255, 255, 255);
+  background: url("../img/cat-energy-index-mobile.jpg") no-repeat 50% 0;
+  background-size: 320px auto;
+}
+
+@media (min-width: $tablet-width) {
+  body {
+    background: url("../img/cat-energy-index-tablet.jpg") no-repeat 50% 0;
+    background-size: 768px auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  body {
+    background: url("../img/cat-energy-index-desktop.jpg") no-repeat 50% 0;
+    background-size: 1440px auto;
+  }
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+  display: block;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  border: none;
+
+  clip: rect(0, 0, 0, 0);
+}
+
+.container {
+  margin: auto;
+
+  width: 280px;
+
+  outline: 2px solid ornage;
+}
+
+@media(min-width: $tablet-width) {
+  .container {
+    margin: auto;
+
+    width: 708px;
+  }
+}

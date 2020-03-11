@@ -1,0 +1,13 @@
+.navigation__body {
+  min-width: 100%;
+}
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navigation__item {
+  height: 67px;
+}
