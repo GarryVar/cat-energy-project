@@ -60,6 +60,15 @@
   text-transform: uppercase;
 
   background-color: $main-green;
+
+  &:hover,
+  &:focus {
+    background-color: $main-green-hover;
+  }
+
+  &:active {
+    color: $main-white-active;
+  }
 }
 
 
