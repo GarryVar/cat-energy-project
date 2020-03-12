@@ -1,2 +1,2 @@
 # Проект: "Cat-energy"
-дизайн макета: [htmlacademy](https://htmlacademy.ru/)
+* Дизайн макета: [htmlacademy](https://htmlacademy.ru/)
