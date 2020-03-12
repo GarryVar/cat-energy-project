@@ -1,2 +1,2 @@
-# Cat-energy.github.io
+# Проект Cat-energy
 [дизайн макета: htmlacademy](https://htmlacademy.ru/)
