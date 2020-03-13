@@ -5,7 +5,7 @@
 }
 
 .categories__content {
- &--pro {
+  &--pro {
     background-image: url("../img/cat-pro.png");
     background-size: 47px 37px;
     background-position: 15px 26px;
@@ -28,7 +28,7 @@
   padding-right: 20px;
   height: inherit;
 
-  background:$main-gray;
+  background: $main-gray;
 }
 
 .categories__title {
@@ -53,7 +53,7 @@
   min-height: 107px;
 
   color: #444444;
-  font-family: "Arial";
+  font-family: "Arial", sans-serif;
   font-size: 14px;
 
   text-transform: none;
@@ -147,7 +147,6 @@
 }
 
 @media (min-width: $desktop-width) {
-
   .categories__body {
     margin-top: 80px;
   }
