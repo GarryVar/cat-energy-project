@@ -132,7 +132,11 @@
 @media (min-width: $desktop-width) {
   .intro {
     &--bg {
-      background-image: linear-gradient(to right, rgb(255, 255, 255) 50%, $main-green 50%);
+      background-image: url("../img/index-background-desktop.jpg"), linear-gradient(to right, rgb(255, 255, 255) 50%, #65a93c 50%);
+      background-repeat: no-repeat;
+      background-size: 49%, 100%;
+      background-position: 970px 4px, center;
+      // background-image: linear-gradient(to right, rgb(255, 255, 255) 50%, $main-green 50%);
     }
   }
 
