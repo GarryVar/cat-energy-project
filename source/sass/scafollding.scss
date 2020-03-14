@@ -31,7 +31,7 @@ body {
   min-width: 320px;
   min-height: 760px;
 
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   line-height: 24px;
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
@@ -40,8 +40,8 @@ body {
   text-transform: uppercase;
 
   // // background-color: rgb(255, 255, 255);
-  // background: url("../img/cat-energy-index-mobile.jpg") no-repeat 50% 0;
-  // background-size: 320px auto;
+  background: url("../img/cat-energy-index-mobile.jpg") no-repeat 50% 0;
+  background-size: 320px auto;
 }
 
 // @media (min-width: $tablet-width) {
