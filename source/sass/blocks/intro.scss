@@ -1,7 +1,7 @@
 .intro {
   &--bg {
     // background-color: $main-green;
-    background-image: url("../img/index-background-mobile.jpg");
+    background-image: url("../img/index-background-mobile.jpg"), linear-gradient(to bottom, rgb(100, 168, 59), 64%, rgb(255, 255, 255) 50%);
     background-repeat: no-repeat;
     background-position: center top;
 
@@ -15,6 +15,8 @@
   padding-top: 31px;
 
   min-height: 478px;
+
+  color: rgb(255, 255, 255);
 }
 
 .intro__text {
@@ -36,9 +38,10 @@
   height: 70px;
 
   line-height: 40px;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 36px;
+  font-weight: normal;
   text-align: center;
+  text-transform: none;
 }
 
 .intro__picture {
@@ -132,10 +135,10 @@
 @media (min-width: $desktop-width) {
   .intro {
     &--bg {
-      background-image: url("../img/index-background-desktop.jpg"), linear-gradient(to right, rgb(255, 255, 255) 50%, #65a93c 50%);
+      background-image: url("../img/index-background-desktop.jpg"), linear-gradient(to right, rgb(255, 255, 255) 50%, rgb(100, 168, 59) 50%);
       background-repeat: no-repeat;
-      background-size: 49%, 100%;
-      background-position: 970px 4px, center;
+      background-size: 50%, 100%;
+      background-position: right center, center;
       // background-image: linear-gradient(to right, rgb(255, 255, 255) 50%, $main-green 50%);
     }
   }
