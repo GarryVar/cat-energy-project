@@ -44,19 +44,19 @@ body {
   background-size: 320px auto;
 }
 
-// @media (min-width: $tablet-width) {
-//   body {
-//     background: url("../img/cat-energy-index-tablet.jpg") no-repeat 50% 0;
-//     background-size: 768px auto;
-//   }
-// }
+@media (min-width: $tablet-width) {
+  body {
+    background: url("../img/cat-energy-index-tablet.jpg") no-repeat 50% 0;
+    background-size: 768px auto;
+  }
+}
 
-// @media (min-width: $desktop-width) {
-//   body {
-//     background: url("../img/cat-energy-index-desktop.jpg") no-repeat 50% 0;
-//     background-size: 1440px auto;
-//   }
-// }
+@media (min-width: $desktop-width) {
+  body {
+    background: url("../img/cat-energy-index-desktop.jpg") no-repeat 50% 0;
+    background-size: 1440px auto;
+  }
+}
 
 section {
   margin: 0;
@@ -126,24 +126,22 @@ button {
 
 .container {
   margin: auto;
-
   width: 280px;
 
-  outline: 2px solid ornage;
+  // outline: 2px solid orange;
 }
 
 @media (min-width: $tablet-width) {
   .container {
-    margin: auto;
-
-    width: 708px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 768px;
   }
 }
 
 
 @media (min-width: $desktop-width) {
   .container {
-    margin: auto;
     padding-left: 40px;
     padding-right: 40px;
 
