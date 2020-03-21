@@ -1,11 +1,9 @@
 .intro {
   &--bg {
-    // background-color: $main-green;
-    background-image: url("../img/index-background-mobile.jpg"), linear-gradient(to bottom, rgb(100, 168, 59), 64%, rgb(255, 255, 255) 50%);
+    background-image: url("../img/index-background-mobile.jpg"),
+                      linear-gradient(to bottom, rgb(100, 168, 59), 64%, rgb(255, 255, 255) 50%);
     background-repeat: no-repeat;
     background-position: center top;
-
-    // background-image: linear-gradient(to bottom, $main-green 64%, rgb(255, 255, 255) 50%);
   }
 }
 
@@ -45,6 +43,9 @@
 }
 
 .intro__picture {
+  margin: auto;
+
+  width: 280px;
   min-height: 271px;
 }
 
