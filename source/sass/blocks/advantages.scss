@@ -40,7 +40,7 @@
     background-position: center;
     background-size: 50px 50px;
     background-repeat: no-repeat;
-    background-color: $main-green;
+    background-color: #68b738;
   }
 
   &:nth-child(1)::after {
@@ -75,11 +75,15 @@
 }
 
 @media (min-width: $tablet-width) {
+  .advantages {
+    &--border {
+      // border-bottom: 1px solid #e9e8e8;
+    }
+  }
+
   .advantages__body {
     padding-top: 33px;
-    min-height: 751px;
-
-    border-bottom: 1px solid #e9e8e8;
+    height: 750px;
   }
 
   .advantages__title {
@@ -172,7 +176,7 @@
     padding-top: 61px;
     padding-bottom: 20px;
 
-    min-height: 252px;
+    height: 430px;
 
     border: none;
   }
