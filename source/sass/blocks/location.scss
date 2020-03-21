@@ -1,0 +1,58 @@
+.location__text  {
+  width: 140px;
+
+  line-height: 20px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.location__address {
+  line-height: 20px;
+
+  color: $text-color;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  text-transform: none;
+}
+
+@media (min-width: $tablet-width) {
+  .location__text {
+    margin-top: -14px;
+    padding-left: 42px;
+
+    width: 200px;
+
+    line-height: 25px;
+    font-size: 20px;
+  }
+
+  .location__address {
+    margin-top: -14px;
+    padding-right: 42px;
+
+    width: 200px;
+
+    line-height: 20px;
+    font-size: 16px;
+    text-align: right;
+
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .location__text,
+  .location__address {
+    width: 285px;
+  }
+
+  .location__address {
+    padding-right: 40px;
+
+    text-align: left;
+  }
+
+  .location__text {
+    padding-right: 40px;
+  }
+}
